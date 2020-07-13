@@ -2,7 +2,8 @@
 export default {
   data () {
     return {
-      planet: null
+      planet: null,
+      count: 0
     }
   },
 
@@ -17,5 +18,9 @@ export default {
     <h1>Not found</h1>
     <h2>{{ planet.name }}</h2>
     <pre>{{ planet }}</pre>
+    <br>
+    <p>
+      Count: {{ count }} <button @click="count++">+1</button>
+    </p>
   </div>
 </template>
