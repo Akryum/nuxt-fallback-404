@@ -62,8 +62,11 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    extend(config) {
-      config.devtool = "souce-map";
+    devtools: true,
+    extend(config, { isClient }) {
+      if (isClient) {
+        config.devtool = "#source-map";
+      }
     }
   },
   vue: {
