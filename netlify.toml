@@ -1,0 +1,9 @@
+
+[[redirects]]
+  from = "/_nuxt/static/:deployId/:slug/payload.js"
+  to = "/_nuxt/static/:deployId/404/payload.js"
+
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
