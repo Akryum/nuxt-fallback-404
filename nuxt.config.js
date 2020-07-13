@@ -69,6 +69,9 @@ export default {
       }
     }
   },
+  export: {
+    fallback: '404.html',
+  },
   vue: {
     config: {
       devtools: true
