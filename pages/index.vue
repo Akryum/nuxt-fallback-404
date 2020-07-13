@@ -5,14 +5,6 @@
       <h1 class="title">
         nuxt-fallback-404
       </h1>
-      <div class="links">
-        <a
-          href="/i-do-not-exist"
-          class="button--green"
-        >
-          Click me
-        </a>
-      </div>
     </div>
   </div>
 </template>
