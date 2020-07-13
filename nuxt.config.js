@@ -77,13 +77,13 @@ export default {
       devtools: true
     }
   },
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        name: "custom",
-        path: "*",
-        component: resolve(__dirname, "pages/404.vue")
-      });
-    }
-  }
+  // router: {
+  //   extendRoutes(routes, resolve) {
+  //     routes.push({
+  //       name: "custom",
+  //       path: "*",
+  //       component: resolve(__dirname, "pages/404.vue")
+  //     });
+  //   }
+  // }
 };
